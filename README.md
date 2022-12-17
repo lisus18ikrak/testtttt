@@ -2,7 +2,9 @@
 
 This script will retrieve and parse Whois (technically RDAP) information for IP addresses. In addition, the script also has the ability to quickly perform reverse DNS lookups for any given domain name(s). This script was created primarily to facilitate recursive Whois queries.
 
+
 ```
+
 Whois - A python based Whois retriever/parser
 
 optional arguments:
@@ -18,3 +20,25 @@ Search:
                         domain names
   -r, --reverse         Retrieve IP address for given domain(s)
 ```
+## installation
+ 
+### step 1:
+
+    git clone https://github.com/lisus18ikrak/whois.git
+   
+### step 2:
+
+    cd whois
+   
+### step 3:
+    
+    pip3 install -r requirements.txt
+    
+### step 4:
+ 
+    python3 whois.py
+    
+### step 5:
+
+    follow me
+ 
